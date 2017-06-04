@@ -89,10 +89,8 @@
       };
 
       vm.showEditModalDialog = function(fields){
-        console.log(fields);
+        console.log(vm);
         vm.header = 'Edit Sensor board';
-        console.log(vm.header);
-        vm.footer = 'Footer headerEditsensor board';
         vm.editSB = fields;
         //var template = $compile('<div><input type="text" ng-model="editSD.title"/></div>');
         //var bodyRes = template(vm);
